@@ -1,0 +1,126 @@
+.locate-title {
+  color: var(--gray_500);
+  margin-top: 200px;
+}
+.locate .none {
+  display: none;
+}
+.locate-maps img {
+  width: 890px;
+  height: 624px;
+}
+
+@media (max-width: 1806px) {
+  .locate {
+    padding: 0 40px;
+  }
+  .locate-maps img {
+    width: 800px;
+  }
+}
+@media (max-width: 1642px) {
+  .locate-maps img {
+    width: 700px;
+  }
+}
+@media (max-width: 1642px) {
+  .locate-title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .locate-maps {
+    gap: 14px;
+  }
+  .locate-maps img {
+    width: 636px;
+  }
+}
+@media (max-width: 1322px) {
+  .locate {
+    padding: 0 20px;
+  }
+  .locatetitle {
+    margin-top: 140px;
+    font-size: 40px;
+    line-height: 60;
+  }
+  .locate-maps {
+    margin-top: 70px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .locate-maps img {
+    width: 890px;
+  }
+}
+@media (max-width: 1024px) {
+  .locate-maps img {
+    width: 750px;
+  }
+}
+@media (max-width: 940px) {
+  .locate-maps {
+    gap: 15px;
+  }
+}
+@media (max-width: 940px) and (max-width: 840px) {
+  .locate {
+    margin-top: 70px;
+    padding: 0 10px;
+  }
+  .locate-maps {
+    margin-top: 50px;
+    gap: 10px;
+  }
+}
+@media (max-width: 940px) and (max-width: 780px) {
+  .locate {
+    padding: 0 10px;
+  }
+  .locate-maps {
+    gap: 10px;
+  }
+  .locate-maps img {
+    display: none;
+  }
+  .locate-maps .none {
+    display: block;
+  }
+}
+@media (max-width: 940px) and (max-width: 620px) {
+  .locate-maps .none {
+    width: 500px;
+  }
+}
+@media (max-width: 940px) and (max-width: 540px) {
+  .locate-title {
+    margin-top: 60px !important;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .locate-maps .none {
+    width: 400px;
+  }
+}
+@media (max-width: 940px) and (max-width: 420px) {
+  .locate-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .locate-maps .none {
+    width: 330px;
+    height: 230px;
+  }
+}
+@media (max-width: 940px) and (max-width: 360px) {
+  .locate-title {
+    margin-top: 40px !important;
+  }
+  .locate-maps {
+    margin-top: 30px !important;
+  }
+  .locate-maps .none {
+    width: 330px;
+    height: 230px;
+  }
+}/*# sourceMappingURL=locate.css.map */

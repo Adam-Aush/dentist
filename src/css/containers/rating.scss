@@ -1,0 +1,120 @@
+.rating {
+  margin-top: 200px;
+  @media screen and (max-width: 1600px) {
+    margin-top: 150px;
+  }
+  @media screen and (max-width: 1200px) {
+    margin-top: 100px;
+  }
+  @media screen and (max-width: 600px) {
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-top: 20px;
+  }
+
+  &_title {
+    text-transform: uppercase;
+    @media screen and (max-width: 1600px) {
+      font-size: 40px;
+      line-height: 44px;
+    }
+    @media screen and (max-width: 1200px) {
+      font-size: 34px;
+      line-height: 38px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    @media screen and (max-width: 400px) {
+      font-size: 20px;
+      line-height: 24px;
+      color: var(--gray_500);
+    }
+  }
+
+  &_text {
+    max-width: 1421px;
+    margin: 0 auto;
+    margin-top: 30px;
+    @media screen and (max-width: 1200px) {
+      margin-top: 20px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    @media screen and (max-width: 600px) {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+
+  &_body {
+    @media screen and (max-width: 1600px) {
+      margin-top: 40px;
+    }
+    @media screen and (max-width: 1200px) {
+      margin-top: 30px;
+      justify-content: center;
+    }
+    @media screen and (max-width: 600px) {
+      margin-top: 20px;
+      gap: 50px;
+    }
+    @media screen and (max-width: 400px) {
+      margin-top: 10px;
+    }
+
+    > img {
+      @media screen and (max-width: 900px) {
+        width: 357px;
+        height: 426px;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 160px;
+        height: 241px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      gap: 10px;
+    }
+  }
+
+  &_icons {
+    flex-wrap: wrap;
+    @media screen and (max-width: 600px) {
+      gap: 20px;
+    }
+    > div {
+      > img {
+        @media screen and (max-width: 900px) {
+          width: 114px;
+          height: 32px;
+        }
+        @media screen and (max-width: 600px) {
+          width: 57px;
+          height: 16px;
+        }
+      }
+
+      > div {
+        @media screen and (max-width: 600px) {
+          gap: 4px;
+        }
+        > img {
+          @media screen and (max-width: 900px) {
+            width: 24px;
+            height: 24px;
+          }
+          @media screen and (max-width: 600px) {
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+    }
+  }
+}

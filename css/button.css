@@ -1,0 +1,38 @@
+.btn {
+  height: 68px;
+  padding: 0 31px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  background: var(--orange_linear);
+}
+.btn-solid {
+  color: var(--white);
+}
+.btn-outline {
+  color: var(--gray_900);
+  position: relative;
+  z-index: 10;
+}
+.btn-outline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 98%;
+  height: 96%;
+  background: #fff;
+  border-radius: inherit;
+  z-index: -1;
+}
+@media screen and (max-width: 500px) {
+  .btn {
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=button.css.map */

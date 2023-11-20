@@ -1,0 +1,47 @@
+.text {
+  &-c {
+    text-align: center;
+  }
+  &-l {
+    text-align: left;
+  }
+  &-r {
+    text-align: right;
+  }
+
+  &-l {
+    background: var(--orange_linear);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--orange);
+    &-h {
+      &:hover {
+        color: var(--orange);
+      }
+    }
+  }
+
+  &-o {
+    color: var(--orange);
+  }
+  &-w {
+    color: var(--white);
+  }
+  &-b {
+    color: var(--gray_500);
+  }
+  &-g {
+    color: var(--gray_300);
+  }
+
+  &-h {
+    cursor: pointer;
+    &:hover {
+      color: var(--orange);
+    }
+  }
+
+  &-b {
+    color: #6be4c1;
+  }
+}

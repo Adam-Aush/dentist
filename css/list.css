@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.list li span {
+  min-width: 5px;
+  height: 5px;
+  background: var(--gray_300);
+  border-radius: 100%;
+}
+.list-w li {
+  color: #fff;
+}
+.list-w span {
+  background: #fff !important;
+}/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,101 @@
+.nav {
+  height: 192px;
+}
+@media screen and (max-width: 1200px) {
+  .nav {
+    height: 146px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav {
+    height: 70px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .nav > img {
+    max-width: 267px;
+    width: 100%;
+    height: 78px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav > img {
+    max-width: 187px;
+    width: 100%;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav > img {
+    max-width: 135px;
+    width: 100%;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .nav_loc {
+    gap: 4px;
+  }
+  .nav_loc span {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav_loc span {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav_loc span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav_loc {
+    display: none;
+  }
+}
+.nav_phone {
+  gap: 4px;
+}
+@media screen and (max-width: 1600px) {
+  .nav_phone span {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav_phone span {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav_phone span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 524px) {
+  .nav_phone img {
+    width: 24px;
+    height: 24px;
+  }
+  .nav_phone span {
+    display: none;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .nav_btn {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav_btn {
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav_btn span {
+    display: none;
+  }
+}/*# sourceMappingURL=navbar.css.map */

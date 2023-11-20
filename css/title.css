@@ -1,0 +1,39 @@
+.text-c {
+  text-align: center;
+}
+.text-l {
+  text-align: left;
+}
+.text-r {
+  text-align: right;
+}
+.text-l {
+  background: var(--orange_linear);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--orange);
+}
+.text-l-h:hover {
+  color: var(--orange);
+}
+.text-o {
+  color: var(--orange);
+}
+.text-w {
+  color: var(--white);
+}
+.text-b {
+  color: var(--gray_500);
+}
+.text-g {
+  color: var(--gray_300);
+}
+.text-h {
+  cursor: pointer;
+}
+.text-h:hover {
+  color: var(--orange);
+}
+.text-b {
+  color: #6be4c1;
+}/*# sourceMappingURL=title.css.map */

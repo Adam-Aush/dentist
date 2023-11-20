@@ -1,0 +1,129 @@
+.online {
+  background: var(--orange_linear);
+  padding: 1px;
+  border-radius: 20px;
+  position: relative;
+}
+.online_wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  border-radius: inherit;
+  padding: 70px 109px 47px 154px;
+}
+@media screen and (max-width: 1500px) {
+  .online_wrap {
+    padding: 70px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .online_wrap {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 500px) {
+  .online_wrap {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .online_wrap {
+    padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .online_info {
+    text-align: center;
+  }
+  .online_info h2,
+  .online_info span {
+    line-height: 44px;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .online_info h2,
+  .online_info span {
+    line-height: 32px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .online_info h2 {
+    line-height: 32px;
+    font-size: 24px;
+  }
+  .online_info span {
+    line-height: 24px;
+    font-size: 20px;
+  }
+}
+.online_image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 1500px) {
+  .online_image {
+    display: none;
+  }
+}
+.online_form {
+  max-width: 488px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1070px) {
+  .online_form h2 {
+    display: none;
+  }
+}
+.online_fields {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 1070px) {
+  .online_fields {
+    margin-top: 20px;
+  }
+  .online_fields .field {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .online_fields .field {
+    height: 42px;
+  }
+}
+.online_bottom {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.online_bottom .btn {
+  max-width: 322px;
+  width: 100%;
+}
+@media screen and (max-width: 1070px) {
+  .online_bottom {
+    margin-top: 10px;
+  }
+  .online_bottom span {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=online.css.map */

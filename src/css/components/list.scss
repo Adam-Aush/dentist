@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+      min-width: 5px;
+      height: 5px;
+      background: var(--gray_300);
+      border-radius: 100%;
+    }
+  }
+
+  &-w {
+    li {
+      color: #fff;
+    }
+
+    span {
+      background: #fff !important;
+    }
+  }
+}

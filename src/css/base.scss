@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@import "./variables.scss";
+
+@import "./components/size.scss";
+@import "./components/title.scss";
+@import "./components/button.scss";
+@import "./components/flex.scss";
+@import "./components/input.scss";
+@import "./components/list.scss";
+@import "./components/offer-card.scss";
+
+@import "./containers/navbar.scss";
+@import "./containers/main.scss";
+@import "./containers/online.scss";
+@import "./containers/choose.scss";
+@import "./containers/offer.scss";
+@import "./containers/step.scss";
+@import "./containers/discount.scss";
+@import "./containers/review.scss";
+@import "./containers/rating.scss";
+@import "./containers/make.scss";
+@import "./containers/game.scss";
+@import "./containers/implantation.scss";
+@import "./containers/protesics.scss";
+@import "./containers/on4-cards.scss";
+@import "./containers/result.scss";
+@import "./containers/locate.scss";
+@import "./containers/call.scss";
+@import "./containers/footer.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+img {
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1840px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}

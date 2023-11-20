@@ -1,0 +1,130 @@
+.online {
+  background: var(--orange_linear);
+  padding: 1px;
+  border-radius: 20px;
+  position: relative;
+  // height: 616px;
+
+  &_wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    border-radius: inherit;
+    padding: 70px 109px 47px 154px;
+
+    @media screen and (max-width: 1500px) {
+      padding: 70px;
+    }
+    @media screen and (max-width: 1070px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 30px;
+    }
+    @media screen and (max-width: 400px) {
+      padding: 20px 30px;
+    }
+  }
+
+  &_info {
+    @media screen and (max-width: 1070px) {
+      text-align: center;
+      h2,
+      span {
+        line-height: 44px;
+        font-size: 40px;
+      }
+    }
+
+    @media screen and (max-width: 750px) {
+      h2,
+      span {
+        line-height: 32px;
+        font-size: 24px;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      h2 {
+        line-height: 32px;
+        font-size: 24px;
+      }
+      span {
+        line-height: 24px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  &_image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media screen and (max-width: 1500px) {
+      display: none;
+    }
+  }
+
+  &_form {
+    max-width: 488px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 1070px) {
+      h2 {
+        display: none;
+      }
+    }
+  }
+
+  &_fields {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    @media screen and (max-width: 1070px) {
+      margin-top: 20px;
+      .field {
+        height: 50px;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .field {
+        height: 42px;
+      }
+    }
+  }
+
+  &_bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .btn {
+      max-width: 322px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 1070px) {
+      margin-top: 10px;
+
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+}
